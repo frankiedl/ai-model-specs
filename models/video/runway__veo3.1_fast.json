@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "id": "runway/veo3.1_fast",
+  "name": "veo3.1_fast",
+  "provider": "Google",
+  "type": "video",
+  "platform": "runway",
+  "notes": "Limits as exposed by Runway's own API (endpoints: image_to_video, text_to_video); a model's native API may differ. Aspect ratios derived from the listed pixel sizes.",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "values": [
+          4,
+          6,
+          8
+        ]
+      },
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "16:9",
+        "9:16"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "1280x720",
+        "720x1280",
+        "1080x1920",
+        "1920x1080"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first",
+        "last"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "native_audio": {
+      "value": true,
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "prompt_max": {
+      "value": {
+        "value": 1000,
+        "unit": "characters"
+      },
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    }
+  }
+}

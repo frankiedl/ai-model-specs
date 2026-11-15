@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "id": "runway/gemini_image3_pro",
+  "name": "gemini_image3_pro",
+  "provider": "Google",
+  "type": "image",
+  "platform": "runway",
+  "notes": "Limits as exposed by Runway's own API (endpoints: text_to_image); a model's native API may differ. Aspect ratios derived from the listed pixel sizes.",
+  "specs": {
+    "aspect_ratios": {
+      "value": [
+        "16:9",
+        "9:16",
+        "1:1",
+        "4:3",
+        "3:4",
+        "21:9",
+        "2:3",
+        "3:2",
+        "4:5",
+        "5:4"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "1344x768",
+        "768x1344",
+        "1024x1024",
+        "1184x864",
+        "864x1184",
+        "1536x672",
+        "832x1248",
+        "1248x832",
+        "896x1152",
+        "1152x896",
+        "2048x2048",
+        "1696x2528",
+        "2528x1696",
+        "1792x2400",
+        "2400x1792",
+        "1856x2304",
+        "2304x1856",
+        "1536x2752",
+        "2752x1536",
+        "3168x1344",
+        "4096x4096",
+        "3392x5056",
+        "5056x3392",
+        "3584x4800",
+        "4800x3584",
+        "3712x4608",
+        "4608x3712",
+        "3072x5504",
+        "5504x3072",
+        "6336x2688"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "prompt_max": {
+      "value": {
+        "value": 45000,
+        "unit": "characters"
+      },
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    }
+  }
+}

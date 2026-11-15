@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "id": "runway/gen4.5",
+  "name": "gen4.5",
+  "provider": "Runway",
+  "type": "video",
+  "platform": "runway",
+  "notes": "Limits as exposed by Runway's own API (endpoints: image_to_video, text_to_video); a model's native API may differ. Aspect ratios derived from the listed pixel sizes.",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "min": 2,
+        "max": 10
+      },
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "16:9",
+        "9:16",
+        "4:3",
+        "1:1",
+        "3:4",
+        "21:9"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "1280x720",
+        "720x1280",
+        "1104x832",
+        "960x960",
+        "832x1104",
+        "1584x672"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "prompt_max": {
+      "value": {
+        "value": 1000,
+        "unit": "characters"
+      },
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    }
+  }
+}

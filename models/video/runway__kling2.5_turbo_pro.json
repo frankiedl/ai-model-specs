@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "id": "runway/kling2.5_turbo_pro",
+  "name": "kling2.5_turbo_pro",
+  "provider": "Kuaishou",
+  "type": "video",
+  "platform": "runway",
+  "notes": "Limits as exposed by Runway's own API (endpoints: image_to_video, text_to_video); a model's native API may differ. Aspect ratios derived from the listed pixel sizes.",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "16:9",
+        "1:1",
+        "9:16"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "1920x1080",
+        "1440x1440",
+        "1080x1920",
+        "1280x720",
+        "720x720",
+        "720x1280"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first",
+        "last"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "prompt_max": {
+      "value": {
+        "value": 2500,
+        "unit": "characters"
+      },
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    }
+  }
+}

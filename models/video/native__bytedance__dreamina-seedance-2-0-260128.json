@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "id": "native/bytedance__dreamina-seedance-2-0-260128",
+  "name": "Dreamina Seedance 2.0",
+  "provider": "ByteDance",
+  "type": "video",
+  "platform": "native",
+  "notes": "BytePlus ModelArk tutorial table. Supports omni reference with images, videos and audio, video editing and extension; maximum reference counts and prompt length were not found on this page.",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "min": 4,
+        "max": 15
+      },
+      "status": "official",
+      "source": "https://docs.byteplus.com/en/docs/ModelArk/doubao-seedance-2-0",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "480p",
+        "720p",
+        "1080p",
+        "4k"
+      ],
+      "status": "official",
+      "source": "https://docs.byteplus.com/en/docs/ModelArk/doubao-seedance-2-0",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "21:9",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16"
+      ],
+      "status": "official",
+      "source": "https://docs.byteplus.com/en/docs/ModelArk/doubao-seedance-2-0",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first",
+        "last"
+      ],
+      "status": "official",
+      "source": "https://docs.byteplus.com/en/docs/ModelArk/doubao-seedance-2-0",
+      "date": "2026-11-15"
+    },
+    "native_audio": {
+      "value": true,
+      "status": "official",
+      "source": "https://docs.byteplus.com/en/docs/ModelArk/doubao-seedance-2-0",
+      "date": "2026-11-15"
+    }
+  }
+}

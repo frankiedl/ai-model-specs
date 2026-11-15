@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "id": "runway/grok_imagine_image_2",
+  "name": "grok_imagine_image_2",
+  "provider": "xAI",
+  "type": "image",
+  "platform": "runway",
+  "notes": "Limits as exposed by Runway's own API (endpoints: text_to_image); a model's native API may differ. Aspect ratios derived from the listed pixel sizes.",
+  "specs": {
+    "aspect_ratios": {
+      "value": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "2:1",
+        "1:2",
+        "auto_1k",
+        "auto_2k"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "1024x1024",
+        "1280x720",
+        "720x1280",
+        "1152x864",
+        "864x1152",
+        "1248x832",
+        "832x1248",
+        "1248x576",
+        "576x1248",
+        "1280x576",
+        "576x1280",
+        "1408x704",
+        "704x1408",
+        "2048x2048",
+        "2816x1584",
+        "1584x2816",
+        "2368x1776",
+        "1776x2368",
+        "2496x1664",
+        "1664x2496",
+        "2912x1344",
+        "1344x2912",
+        "3200x1440",
+        "1440x3200",
+        "2912x1456",
+        "1456x2912"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "prompt_max": {
+      "value": {
+        "value": 2500,
+        "unit": "characters"
+      },
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    }
+  }
+}

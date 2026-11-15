@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "id": "native/xai__grok-imagine-video-1.5",
+  "name": "Grok Imagine Video 1.5",
+  "provider": "xAI",
+  "type": "video",
+  "platform": "native",
+  "notes": "Reference-to-video: up to 14 images (15 s, 720p) and 3 voice references; also up to 4 mid-video keyframes. Image-to-video keeps the input image aspect ratio. 1080p is native.",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "min": 1,
+        "max": 15
+      },
+      "status": "official",
+      "source": "https://docs.x.ai/developers/model-capabilities/video/overview",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "480p",
+        "720p",
+        "1080p"
+      ],
+      "status": "official",
+      "source": "https://docs.x.ai/developers/model-capabilities/video/overview",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "21:9",
+        "5:2"
+      ],
+      "status": "official",
+      "source": "https://docs.x.ai/developers/model-capabilities/video/overview",
+      "date": "2026-11-15"
+    },
+    "references_max": {
+      "value": {
+        "images": 14,
+        "audios": 3
+      },
+      "status": "official",
+      "source": "https://docs.x.ai/developers/model-capabilities/video/overview",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first",
+        "last"
+      ],
+      "status": "official",
+      "source": "https://docs.x.ai/developers/model-capabilities/video/overview",
+      "date": "2026-11-15"
+    },
+    "native_audio": {
+      "value": true,
+      "status": "official",
+      "source": "https://docs.x.ai/developers/model-capabilities/video/overview",
+      "date": "2026-11-15"
+    }
+  }
+}

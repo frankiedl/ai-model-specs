@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "native/alibaba__happyhorse-1.1-r2v",
+  "name": "HappyHorse 1.1 R2V",
+  "provider": "Alibaba",
+  "type": "video",
+  "platform": "native",
+  "notes": "Reference-to-video with up to 9 reference images (Model Studio page); other limits not collected.",
+  "specs": {
+    "references_max": {
+      "value": {
+        "images": 9
+      },
+      "status": "official",
+      "source": "https://www.alibabacloud.com/help/en/model-studio/happyhorse-1-1-r2v.md",
+      "date": "2026-11-15"
+    }
+  }
+}

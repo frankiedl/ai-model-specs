@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "id": "runway/gpt_image_2_5_flare",
+  "name": "gpt_image_2_5_flare",
+  "provider": "OpenAI",
+  "type": "image",
+  "platform": "runway",
+  "notes": "Limits as exposed by Runway's own API (endpoints: text_to_image); a model's native API may differ. Aspect ratios derived from the listed pixel sizes.",
+  "specs": {
+    "aspect_ratios": {
+      "value": [
+        "21:9",
+        "16:9",
+        "3:2",
+        "4:3",
+        "5:4",
+        "1:1",
+        "4:5",
+        "3:4",
+        "2:3",
+        "9:16",
+        "auto"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "2048x880",
+        "1920x1088",
+        "1920x1280",
+        "1920x1440",
+        "1920x1536",
+        "1920x1920",
+        "1536x1920",
+        "1440x1920",
+        "1280x1920",
+        "1088x1920",
+        "2912x1248",
+        "2560x1440",
+        "2560x1712",
+        "2560x1920",
+        "2560x2048",
+        "2560x2560",
+        "2048x2560",
+        "1920x2560",
+        "1712x2560",
+        "1440x2560",
+        "3840x1648",
+        "3840x2160",
+        "3504x2336",
+        "3264x2448",
+        "3200x2560",
+        "2880x2880",
+        "2560x3200",
+        "2448x3264",
+        "2336x3504",
+        "2160x3840"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "prompt_max": {
+      "value": {
+        "value": 32000,
+        "unit": "characters"
+      },
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    }
+  }
+}

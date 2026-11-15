@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "id": "runway/ideogram_4_0",
+  "name": "ideogram_4_0",
+  "provider": "Ideogram",
+  "type": "image",
+  "platform": "runway",
+  "notes": "Limits as exposed by Runway's own API (endpoints: text_to_image); a model's native API may differ. Aspect ratios derived from the listed pixel sizes.",
+  "specs": {
+    "aspect_ratios": {
+      "value": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "21:9",
+        "9:21"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "2048x2048",
+        "2560x1440",
+        "1440x2560",
+        "2304x1728",
+        "1728x2304",
+        "2496x1664",
+        "1664x2496",
+        "3072x1280",
+        "1280x3072"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "prompt_max": {
+      "value": {
+        "value": 4000,
+        "unit": "characters"
+      },
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    }
+  }
+}

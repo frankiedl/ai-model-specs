@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "native/minimax__minimax-h3-image",
+  "name": "MiniMax-H3-Image",
+  "provider": "MiniMax",
+  "type": "image",
+  "platform": "native",
+  "notes": "Resolutions are target area levels (1024^2, 2048^2, 4096^2) or exact WIDTHxHEIGHT (655,360 pixels minimum). Both variants share the same limits.",
+  "specs": {
+    "resolutions": {
+      "value": [
+        "1K",
+        "2K",
+        "4K"
+      ],
+      "status": "official",
+      "source": "https://platform.minimax.io/docs/api-reference/image-generation-h3-generations.md",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "auto",
+        "any X:Y"
+      ],
+      "status": "official",
+      "source": "https://platform.minimax.io/docs/api-reference/image-generation-h3-generations.md",
+      "date": "2026-11-15"
+    },
+    "references_max": {
+      "value": {
+        "images": 16
+      },
+      "status": "official",
+      "source": "https://platform.minimax.io/docs/api-reference/image-generation-h3-edits.md",
+      "date": "2026-11-15"
+    },
+    "prompt_max": {
+      "value": {
+        "value": 32000,
+        "unit": "characters"
+      },
+      "status": "official",
+      "source": "https://platform.minimax.io/docs/api-reference/image-generation-h3-generations.md",
+      "date": "2026-11-15"
+    }
+  }
+}

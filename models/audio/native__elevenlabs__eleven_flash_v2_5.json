@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "id": "native/elevenlabs__eleven_flash_v2_5",
+  "name": "Eleven Flash v2.5",
+  "provider": "ElevenLabs",
+  "type": "audio",
+  "platform": "native",
+  "notes": "Text-to-speech character limit per request as stated on the models page.",
+  "specs": {
+    "prompt_max": {
+      "value": {
+        "value": 40000,
+        "unit": "characters"
+      },
+      "status": "official",
+      "source": "https://elevenlabs.io/docs/overview/models",
+      "date": "2026-11-15"
+    }
+  }
+}

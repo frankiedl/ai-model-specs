@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "id": "runway/hailuo3_lite",
+  "name": "hailuo3_lite",
+  "provider": "MiniMax",
+  "type": "video",
+  "platform": "runway",
+  "notes": "Limits as exposed by Runway's own API (endpoints: image_to_video, text_to_video, video_to_video); a model's native API may differ. Aspect ratios derived from the listed pixel sizes.",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "min": 4,
+        "max": 15
+      },
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "21:9",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16",
+        "adaptive"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "21x9",
+        "16x9",
+        "4x3",
+        "1x1",
+        "3x4",
+        "9x16"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first",
+        "last"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "prompt_max": {
+      "value": {
+        "value": 7000,
+        "unit": "characters"
+      },
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "id": "native/openai__gpt-image-2.6-sunburst",
+  "name": "GPT-Image-2.6 Sunburst",
+  "provider": "OpenAI",
+  "type": "image",
+  "platform": "native",
+  "notes": "The 32000-character limit is stated for 'the GPT image models' in the public OpenAPI spec, which predates this model; not confirmed on the model page. gpt-image-2 sizes (guide): any size with max edge 3840 px, multiples of 16, ratio up to 3:1, 655,360-8,294,400 total pixels.",
+  "specs": {
+    "prompt_max": {
+      "value": {
+        "value": 32000,
+        "unit": "characters"
+      },
+      "status": "estimated",
+      "source": "https://raw.githubusercontent.com/openai/openai-openapi/master/openapi.yaml",
+      "date": "2026-11-15"
+    }
+  }
+}

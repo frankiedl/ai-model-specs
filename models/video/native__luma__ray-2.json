@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "id": "native/luma__ray-2",
+  "name": "Ray 2",
+  "provider": "Luma",
+  "type": "video",
+  "platform": "native",
+  "notes": "Dream Machine API reference; the page may predate newer Luma models. Start and end keyframes (frame0/frame1) and loop option supported.",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "values": [
+          5,
+          9
+        ]
+      },
+      "status": "official",
+      "source": "https://docs.lumalabs.ai/reference/creategeneration",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "540p",
+        "720p",
+        "1080p",
+        "4k"
+      ],
+      "status": "official",
+      "source": "https://docs.lumalabs.ai/docs/video-generation",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "21:9",
+        "9:21"
+      ],
+      "status": "official",
+      "source": "https://docs.lumalabs.ai/reference/creategeneration",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first",
+        "last"
+      ],
+      "status": "official",
+      "source": "https://docs.lumalabs.ai/docs/video-generation",
+      "date": "2026-11-15"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "native/xai__grok-imagine-video-1.5-lite",
+  "name": "Grok Imagine Video 1.5 Lite",
+  "provider": "xAI",
+  "type": "video",
+  "platform": "native",
+  "notes": "Text-to-video and image-to-video with lip-synced speech; 1080p is upscaled from 720p. No reference images, no first/last frame.",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "min": 1,
+        "max": 15
+      },
+      "status": "official",
+      "source": "https://docs.x.ai/developers/model-capabilities/video/overview",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "480p",
+        "720p",
+        "1080p"
+      ],
+      "status": "official",
+      "source": "https://docs.x.ai/developers/model-capabilities/video/overview",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "21:9",
+        "5:2"
+      ],
+      "status": "official",
+      "source": "https://docs.x.ai/developers/model-capabilities/video/overview",
+      "date": "2026-11-15"
+    }
+  }
+}

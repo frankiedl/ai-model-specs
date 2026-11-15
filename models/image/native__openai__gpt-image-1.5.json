@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "id": "native/openai__gpt-image-1.5",
+  "name": "GPT Image 1.5",
+  "provider": "OpenAI",
+  "type": "image",
+  "platform": "native",
+  "notes": "Limit stated in the public OpenAPI spec for the GPT image models.",
+  "specs": {
+    "prompt_max": {
+      "value": {
+        "value": 32000,
+        "unit": "characters"
+      },
+      "status": "official",
+      "source": "https://raw.githubusercontent.com/openai/openai-openapi/master/openapi.yaml",
+      "date": "2026-11-15"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "schema": 1,
+  "id": "runway/seedance2_5",
+  "name": "seedance2_5",
+  "provider": "ByteDance",
+  "type": "video",
+  "platform": "runway",
+  "notes": "Limits as exposed by Runway's own API (endpoints: image_to_video, text_to_video, video_to_video); a model's native API may differ. Aspect ratios derived from the listed pixel sizes.",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "min": 4,
+        "max": 30,
+        "auto": true
+      },
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "21:9",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "992x432",
+        "854x480",
+        "752x560",
+        "640x640",
+        "560x752",
+        "480x854",
+        "1470x630",
+        "1280x720",
+        "1112x834",
+        "960x960",
+        "834x1112",
+        "720x1280",
+        "2206x946",
+        "1920x1080",
+        "1664x1248",
+        "1440x1440",
+        "1248x1664",
+        "1080x1920",
+        "3840x1646",
+        "3840x2160",
+        "3840x2880",
+        "3840x3840",
+        "2880x3840",
+        "2160x3840"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first",
+        "last"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "native_audio": {
+      "value": true,
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "prompt_max": {
+      "value": {
+        "value": 15000,
+        "unit": "characters"
+      },
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "id": "runway/seedream5_lite",
+  "name": "seedream5_lite",
+  "provider": "ByteDance",
+  "type": "image",
+  "platform": "runway",
+  "notes": "Limits as exposed by Runway's own API (endpoints: text_to_image); a model's native API may differ. Aspect ratios derived from the listed pixel sizes.",
+  "specs": {
+    "aspect_ratios": {
+      "value": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16",
+        "3:2",
+        "2:3",
+        "21:9"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "2048x2048",
+        "2304x1728",
+        "1728x2304",
+        "2848x1600",
+        "1600x2848",
+        "2496x1664",
+        "1664x2496",
+        "3136x1344",
+        "3072x3072",
+        "3456x2592",
+        "2592x3456",
+        "4096x2304",
+        "2304x4096",
+        "3744x2496",
+        "2496x3744",
+        "4704x2016"
+      ],
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    },
+    "prompt_max": {
+      "value": {
+        "value": 4000,
+        "unit": "characters"
+      },
+      "status": "official",
+      "source": "https://docs.dev.runwayml.com/openapi.json",
+      "date": "2026-11-15"
+    }
+  }
+}

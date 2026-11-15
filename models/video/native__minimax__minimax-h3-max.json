@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "id": "native/minimax__minimax-h3-max",
+  "name": "MiniMax-H3-Max",
+  "provider": "MiniMax",
+  "type": "video",
+  "platform": "native",
+  "notes": "Reference inputs: max 9 images, 3 videos (2-15 s each, 15 s total), 3 audio clips (15 s total); mixed input capped at 12 files. Integer durations only. Prompt limit is per text item.",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "min": 5,
+        "max": 15
+      },
+      "status": "official",
+      "source": "https://platform.minimax.io/docs/api-reference/video-generation-v2-create.md",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "480P",
+        "768P"
+      ],
+      "status": "official",
+      "source": "https://platform.minimax.io/docs/api-reference/video-generation-v2-create.md",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "adaptive",
+        "21:9",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16"
+      ],
+      "status": "official",
+      "source": "https://platform.minimax.io/docs/api-reference/video-generation-v2-create.md",
+      "date": "2026-11-15"
+    },
+    "references_max": {
+      "value": {
+        "images": 9,
+        "videos": 3,
+        "audios": 3
+      },
+      "status": "official",
+      "source": "https://platform.minimax.io/docs/guides/video-generation.md",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first",
+        "last"
+      ],
+      "status": "official",
+      "source": "https://platform.minimax.io/docs/guides/video-generation.md",
+      "date": "2026-11-15"
+    },
+    "prompt_max": {
+      "value": {
+        "value": 7000,
+        "unit": "characters"
+      },
+      "status": "official",
+      "source": "https://platform.minimax.io/docs/api-reference/video-generation-v2-create.md",
+      "date": "2026-11-15"
+    }
+  }
+}

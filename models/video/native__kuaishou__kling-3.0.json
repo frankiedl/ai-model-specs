@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "native/kuaishou__kling-3.0",
+  "name": "Kling 3.0",
+  "provider": "Kuaishou",
+  "type": "video",
+  "platform": "native",
+  "notes": "From the capability map table only; per-endpoint details not collected.",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "min": 3,
+        "max": 15
+      },
+      "status": "official",
+      "source": "https://kling.ai/document-api/guides/capability-map/video.md",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "720p",
+        "1080p",
+        "4k"
+      ],
+      "status": "official",
+      "source": "https://kling.ai/document-api/guides/capability-map/video.md",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first",
+        "last"
+      ],
+      "status": "official",
+      "source": "https://kling.ai/document-api/guides/capability-map/video.md",
+      "date": "2026-11-15"
+    },
+    "native_audio": {
+      "value": true,
+      "status": "official",
+      "source": "https://kling.ai/document-api/guides/capability-map/video.md",
+      "date": "2026-11-15"
+    }
+  }
+}

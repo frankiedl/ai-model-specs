@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "id": "native/kuaishou__kling-4.0-flash",
+  "name": "Kling 4.0 Flash",
+  "provider": "Kuaishou",
+  "type": "video",
+  "platform": "native",
+  "notes": "Reference videos: up to 5, 20 s combined. Prompt limit not re-checked on the Flash page.",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "min": 3,
+        "max": 20
+      },
+      "status": "official",
+      "source": "https://kling.ai/document-api/api/video/4-0-flash/text-to-video.md",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "720p"
+      ],
+      "status": "official",
+      "source": "https://kling.ai/document-api/api/video/4-0-flash/text-to-video.md",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "21:9",
+        "16:9",
+        "9:16",
+        "1:1",
+        "4:3",
+        "3:4"
+      ],
+      "status": "official",
+      "source": "https://kling.ai/document-api/api/video/4-0-flash/text-to-video.md",
+      "date": "2026-11-15"
+    },
+    "references_max": {
+      "value": {
+        "images": 10,
+        "videos": 5
+      },
+      "status": "official",
+      "source": "https://kling.ai/document-api/guides/capability-map/video.md",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first"
+      ],
+      "status": "official",
+      "source": "https://kling.ai/document-api/guides/capability-map/video.md",
+      "date": "2026-11-15"
+    },
+    "native_audio": {
+      "value": true,
+      "status": "official",
+      "source": "https://kling.ai/document-api/guides/capability-map/video.md",
+      "date": "2026-11-15"
+    }
+  }
+}

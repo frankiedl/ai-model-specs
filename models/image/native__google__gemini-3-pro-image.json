@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "id": "native/google__gemini-3-pro-image",
+  "name": "Gemini 3 Pro Image (Nano Banana Pro)",
+  "provider": "Google",
+  "type": "image",
+  "platform": "native",
+  "notes": "Up to 14 reference images in total (Nano Banana 2.1 / 3.1 Flash: up to 10 objects + 4 characters; 3 Pro: up to 6 objects + 5 characters + 3 style). Output token limit 32768.",
+  "specs": {
+    "resolutions": {
+      "value": [
+        "1K",
+        "2K",
+        "4K"
+      ],
+      "status": "official",
+      "source": "https://ai.google.dev/gemini-api/docs/image-generation",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "16:9",
+        "21:9"
+      ],
+      "status": "official",
+      "source": "https://ai.google.dev/gemini-api/docs/image-generation",
+      "date": "2026-11-15"
+    },
+    "references_max": {
+      "value": {
+        "images": 14
+      },
+      "status": "official",
+      "source": "https://ai.google.dev/gemini-api/docs/image-generation",
+      "date": "2026-11-15"
+    }
+  }
+}

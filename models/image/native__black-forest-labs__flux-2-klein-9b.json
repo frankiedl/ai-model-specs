@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "native/black-forest-labs__flux-2-klein-9b",
+  "name": "FLUX.2 Klein 9B",
+  "provider": "Black Forest Labs",
+  "type": "image",
+  "platform": "native",
+  "notes": "API limit for reference images (the playground allows 10 on some tiers). Output up to 4 MP. Prompt length not declared.",
+  "specs": {
+    "references_max": {
+      "value": {
+        "images": 4
+      },
+      "status": "official",
+      "source": "https://docs.bfl.ml/flux_2/flux2_overview.md",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "up to 4 megapixels"
+      ],
+      "status": "official",
+      "source": "https://docs.bfl.ml/flux_2/flux2_overview.md",
+      "date": "2026-11-15"
+    }
+  }
+}

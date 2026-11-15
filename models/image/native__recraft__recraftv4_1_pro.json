@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "native/recraft__recraftv4_1_pro",
+  "name": "Recraft V4.1 Pro",
+  "provider": "Recraft",
+  "type": "image",
+  "platform": "native",
+  "notes": "The model table lists a 'Prompt limit' of 10,000 without naming the unit; characters assumed. Vector (SVG) variants exist with the same limit.",
+  "specs": {
+    "resolutions": {
+      "value": [
+        "2K"
+      ],
+      "status": "official",
+      "source": "https://www.recraft.ai/docs/api-reference/agents.md",
+      "date": "2026-11-15"
+    },
+    "prompt_max": {
+      "value": {
+        "value": 10000,
+        "unit": "characters"
+      },
+      "status": "estimated",
+      "source": "https://www.recraft.ai/docs/api-reference/agents.md",
+      "date": "2026-11-15"
+    }
+  }
+}

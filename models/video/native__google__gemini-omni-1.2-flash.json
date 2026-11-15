@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "id": "native/google__gemini-omni-1.2-flash",
+  "name": "Gemini Omni 1.2 Flash",
+  "provider": "Google",
+  "type": "video",
+  "platform": "native",
+  "notes": "Gemini API (Interactions API). Clips of 3-10 s only for first/last-frame interpolation and per-turn extension (up to 30 s total). 1080p and 4k are upscaled. Input token limit 131072 (context window, not a prompt limit). Veo 3.1 preview endpoints in the Gemini API were shut down on 2026-10-22.",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "min": 3,
+        "max": 15
+      },
+      "status": "official",
+      "source": "https://aistudio.google.com/docs/models/gemini-omni-flash.md",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "360p",
+        "720p",
+        "1080p",
+        "4k"
+      ],
+      "status": "official",
+      "source": "https://ai.google.dev/gemini-api/docs/omni",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "16:9",
+        "9:16"
+      ],
+      "status": "official",
+      "source": "https://ai.google.dev/gemini-api/docs/omni",
+      "date": "2026-11-15"
+    },
+    "references_max": {
+      "value": {
+        "images": 6
+      },
+      "status": "official",
+      "source": "https://ai.google.dev/gemini-api/docs/omni",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first",
+        "last"
+      ],
+      "status": "official",
+      "source": "https://aistudio.google.com/docs/models/gemini-omni-flash.md",
+      "date": "2026-11-15"
+    },
+    "native_audio": {
+      "value": true,
+      "status": "official",
+      "source": "https://aistudio.google.com/docs/models/gemini-omni-flash.md",
+      "date": "2026-11-15"
+    }
+  }
+}
