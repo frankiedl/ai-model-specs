@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "id": "openrouter/runway__aleph-2",
+  "name": "Runway: Aleph 2.0",
+  "provider": "runway",
+  "type": "video",
+  "platform": "openrouter",
+  "specs": {
+    "aspect_ratios": {
+      "value": [
+        "16:9",
+        "4:3",
+        "3:2",
+        "1:1",
+        "2:3",
+        "3:4",
+        "9:16",
+        "21:9"
+      ],
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "native_audio": {
+      "value": false,
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    }
+  }
+}

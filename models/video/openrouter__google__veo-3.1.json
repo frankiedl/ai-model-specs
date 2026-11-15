@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "id": "openrouter/google__veo-3.1",
+  "name": "Google: Veo 3.1",
+  "provider": "google",
+  "type": "video",
+  "platform": "openrouter",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "values": [
+          4,
+          6,
+          8
+        ]
+      },
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "720p",
+        "1080p",
+        "4K"
+      ],
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "16:9",
+        "9:16"
+      ],
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first",
+        "last"
+      ],
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "native_audio": {
+      "value": true,
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    }
+  }
+}

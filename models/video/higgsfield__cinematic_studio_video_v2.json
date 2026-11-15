@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "id": "higgsfield/cinematic_studio_video_v2",
+  "name": "cinematic_studio_video_v2",
+  "provider": "Higgsfield",
+  "type": "video",
+  "platform": "higgsfield",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "min": 3,
+        "max": 12
+      },
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first",
+        "last"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    }
+  }
+}

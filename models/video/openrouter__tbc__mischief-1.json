@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "id": "openrouter/tbc__mischief-1",
+  "name": "TBC: mischief 1",
+  "provider": "tbc",
+  "type": "video",
+  "platform": "openrouter",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "values": [
+          3,
+          5
+        ]
+      },
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "480p",
+        "720p"
+      ],
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "16:9"
+      ],
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first"
+      ],
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "native_audio": {
+      "value": false,
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "id": "higgsfield/kling4_0",
+  "name": "kling4_0",
+  "provider": "Kling",
+  "type": "video",
+  "platform": "higgsfield",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "min": 3,
+        "max": 30
+      },
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "720p",
+        "1080p"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "21:9",
+        "16:9",
+        "9:16",
+        "1:1",
+        "auto"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "references_max": {
+      "value": {
+        "images": 10,
+        "videos": 5,
+        "audios": 0
+      },
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first",
+        "last"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    }
+  },
+  "notes": "The 10 images include start/end frames; up to 7 Kling element ids."
+}

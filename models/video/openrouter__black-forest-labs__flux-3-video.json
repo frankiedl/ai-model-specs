@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "id": "openrouter/black-forest-labs__flux-3-video",
+  "name": "Black Forest Labs: FLUX 3 Video",
+  "provider": "black-forest-labs",
+  "type": "video",
+  "platform": "openrouter",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "values": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "720p",
+        "1080p",
+        "2K",
+        "4K"
+      ],
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "21:9",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16"
+      ],
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first",
+        "last"
+      ],
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "native_audio": {
+      "value": true,
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    }
+  }
+}

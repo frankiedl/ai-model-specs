@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "higgsfield/minimax_hailuo",
+  "name": "minimax_hailuo",
+  "provider": "Hailuo",
+  "type": "video",
+  "platform": "higgsfield",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "values": [
+          6,
+          10
+        ]
+      },
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "512",
+        "768",
+        "1080"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "references_max": {
+      "value": {
+        "images": 0
+      },
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first",
+        "last"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    }
+  },
+  "notes": "Resolution 512 is incompatible with end_image; the 2.3 variants do not support 512."
+}

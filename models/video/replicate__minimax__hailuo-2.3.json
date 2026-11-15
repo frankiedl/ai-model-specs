@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "replicate/minimax__hailuo-2.3",
+  "name": "minimax/hailuo-2.3",
+  "provider": "minimax",
+  "type": "video",
+  "platform": "replicate",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "values": [
+          6,
+          10
+        ]
+      },
+      "status": "official",
+      "source": "https://replicate.com/minimax/hailuo-2.3/api/schema",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "768p",
+        "1080p"
+      ],
+      "status": "official",
+      "source": "https://replicate.com/minimax/hailuo-2.3/api/schema",
+      "date": "2026-11-15"
+    }
+  }
+}

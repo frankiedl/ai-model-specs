@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "id": "higgsfield/kling2_6",
+  "name": "kling2_6",
+  "provider": "Kling",
+  "type": "video",
+  "platform": "higgsfield",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "references_max": {
+      "value": {
+        "images": 0
+      },
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "native_audio": {
+      "value": true,
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    }
+  }
+}

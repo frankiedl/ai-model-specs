@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "id": "openrouter/heygen__avatar-iv",
+  "name": "HeyGen: Avatar IV",
+  "provider": "heygen",
+  "type": "video",
+  "platform": "openrouter",
+  "specs": {
+    "resolutions": {
+      "value": [
+        "720p",
+        "1080p"
+      ],
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "native_audio": {
+      "value": false,
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    }
+  }
+}

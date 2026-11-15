@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "id": "higgsfield/minimax_h3",
+  "name": "minimax_h3",
+  "provider": "MiniMax",
+  "type": "video",
+  "platform": "higgsfield",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "min": 4,
+        "max": 15
+      },
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "2K"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "auto",
+        "21:9",
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "references_max": {
+      "value": {
+        "images": 9,
+        "videos": 3,
+        "audios": 3
+      },
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first",
+        "last"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "id": "higgsfield/soul_cinematic",
+  "name": "soul_cinematic",
+  "provider": "Higgsfield",
+  "type": "image",
+  "platform": "higgsfield",
+  "specs": {
+    "resolutions": {
+      "value": [
+        "1.5k",
+        "2k"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16",
+        "3:2",
+        "2:3",
+        "21:9"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "references_max": {
+      "value": {
+        "images": 1
+      },
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    }
+  }
+}

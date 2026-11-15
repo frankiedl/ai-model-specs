@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "replicate/wan-video__wan-2.2-i2v-fast",
+  "name": "wan-video/wan-2.2-i2v-fast",
+  "provider": "wan-video",
+  "type": "video",
+  "platform": "replicate",
+  "specs": {
+    "resolutions": {
+      "value": [
+        "480p",
+        "720p"
+      ],
+      "status": "official",
+      "source": "https://replicate.com/wan-video/wan-2.2-i2v-fast/api/schema",
+      "date": "2026-11-15"
+    }
+  }
+}

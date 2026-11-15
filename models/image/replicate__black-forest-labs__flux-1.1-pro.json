@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "replicate/black-forest-labs__flux-1.1-pro",
+  "name": "black-forest-labs/flux-1.1-pro",
+  "provider": "black-forest-labs",
+  "type": "image",
+  "platform": "replicate",
+  "specs": {
+    "aspect_ratios": {
+      "value": [
+        "custom",
+        "1:1",
+        "16:9",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "3:4",
+        "4:3"
+      ],
+      "status": "official",
+      "source": "https://replicate.com/black-forest-labs/flux-1.1-pro/api/schema",
+      "date": "2026-11-15"
+    }
+  }
+}

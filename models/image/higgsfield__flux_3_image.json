@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "id": "higgsfield/flux_3_image",
+  "name": "flux_3_image",
+  "provider": "Black Forest Labs",
+  "type": "image",
+  "platform": "higgsfield",
+  "specs": {
+    "resolutions": {
+      "value": [
+        "768sq",
+        "1k",
+        "1.5k",
+        "2k",
+        "4k"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "auto",
+        "21:9",
+        "2:1",
+        "16:9",
+        "3:2",
+        "7:5",
+        "4:3",
+        "5:4",
+        "1:1",
+        "4:5",
+        "3:4",
+        "5:7",
+        "2:3",
+        "9:16",
+        "1:2"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "references_max": {
+      "value": {
+        "images": 10
+      },
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    }
+  }
+}

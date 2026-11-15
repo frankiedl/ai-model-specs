@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Model spec record",
+  "type": "object",
+  "required": ["schema", "id", "name", "type", "platform", "specs"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": {"const": 1},
+    "id": {"type": "string", "pattern": "^[a-z0-9._-]+/[a-z0-9._-]+$"},
+    "name": {"type": "string", "minLength": 1},
+    "provider": {"type": "string"},
+    "type": {"enum": ["video", "image", "audio", "3d"]},
+    "platform": {"type": "string", "description": "Where the spec applies: the API/service (higgsfield, replicate, openrouter, ...) or 'native' for the model maker's own API."},
+    "notes": {"type": "string"},
+    "specs": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "duration_seconds": {"$ref": "#/$defs/fact"},
+        "resolutions": {"$ref": "#/$defs/fact"},
+        "aspect_ratios": {"$ref": "#/$defs/fact"},
+        "references_max": {"$ref": "#/$defs/fact"},
+        "frame_images": {"$ref": "#/$defs/fact"},
+        "native_audio": {"$ref": "#/$defs/fact"},
+        "prompt_max": {"$ref": "#/$defs/fact"}
+      }
+    }
+  },
+  "$defs": {
+    "fact": {
+      "type": "object",
+      "required": ["value", "status", "source", "date"],
+      "additionalProperties": false,
+      "properties": {
+        "value": {},
+        "status": {"enum": ["official", "tested", "community", "estimated"]},
+        "source": {"type": "string", "minLength": 3},
+        "date": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"}
+      }
+    }
+  }
+}

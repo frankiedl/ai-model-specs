@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "id": "replicate/kwaivgi__kling-v2.6",
+  "name": "kwaivgi/kling-v2.6",
+  "provider": "kwaivgi",
+  "type": "video",
+  "platform": "replicate",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "status": "official",
+      "source": "https://replicate.com/kwaivgi/kling-v2.6/api/schema",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
+      "status": "official",
+      "source": "https://replicate.com/kwaivgi/kling-v2.6/api/schema",
+      "date": "2026-11-15"
+    }
+  }
+}

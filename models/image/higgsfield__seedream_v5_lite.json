@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "higgsfield/seedream_v5_lite",
+  "name": "seedream_v5_lite",
+  "provider": "Bytedance",
+  "type": "image",
+  "platform": "higgsfield",
+  "specs": {
+    "aspect_ratios": {
+      "value": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16",
+        "21:9"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "id": "replicate/black-forest-labs__flux-2-pro",
+  "name": "black-forest-labs/flux-2-pro",
+  "provider": "black-forest-labs",
+  "type": "image",
+  "platform": "replicate",
+  "specs": {
+    "resolutions": {
+      "value": [
+        "match_input_image",
+        "0.5 MP",
+        "1 MP",
+        "2 MP",
+        "4 MP"
+      ],
+      "status": "official",
+      "source": "https://replicate.com/black-forest-labs/flux-2-pro/api/schema",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "match_input_image",
+        "custom",
+        "1:1",
+        "16:9",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "3:4",
+        "4:3"
+      ],
+      "status": "official",
+      "source": "https://replicate.com/black-forest-labs/flux-2-pro/api/schema",
+      "date": "2026-11-15"
+    }
+  }
+}

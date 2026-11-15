@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "id": "higgsfield/flux_2",
+  "name": "flux_2",
+  "provider": "Black Forest Labs",
+  "type": "image",
+  "platform": "higgsfield",
+  "specs": {
+    "resolutions": {
+      "value": [
+        "1k",
+        "2k"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    }
+  }
+}

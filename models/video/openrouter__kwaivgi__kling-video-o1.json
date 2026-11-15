@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "id": "openrouter/kwaivgi__kling-video-o1",
+  "name": "Kling: Video O1",
+  "provider": "kwaivgi",
+  "type": "video",
+  "platform": "openrouter",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "720p"
+      ],
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "16:9",
+        "9:16",
+        "1:1"
+      ],
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first",
+        "last"
+      ],
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "native_audio": {
+      "value": true,
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "higgsfield/flux_kontext",
+  "name": "flux_kontext",
+  "provider": "Black Forest Labs",
+  "type": "image",
+  "platform": "higgsfield",
+  "specs": {
+    "aspect_ratios": {
+      "value": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "references_max": {
+      "value": {
+        "images": 4
+      },
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    }
+  }
+}

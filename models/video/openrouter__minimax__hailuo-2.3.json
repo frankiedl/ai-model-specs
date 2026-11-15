@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "id": "openrouter/minimax__hailuo-2.3",
+  "name": "MiniMax: Hailuo 2.3",
+  "provider": "minimax",
+  "type": "video",
+  "platform": "openrouter",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "values": [
+          6,
+          10
+        ]
+      },
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "1080p"
+      ],
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "16:9"
+      ],
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "frame_images": {
+      "value": [
+        "first"
+      ],
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    },
+    "native_audio": {
+      "value": false,
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    }
+  }
+}

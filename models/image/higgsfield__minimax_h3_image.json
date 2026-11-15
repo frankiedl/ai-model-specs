@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "higgsfield/minimax_h3_image",
+  "name": "minimax_h3_image",
+  "provider": "MiniMax",
+  "type": "image",
+  "platform": "higgsfield",
+  "specs": {
+    "resolutions": {
+      "value": [
+        "1k",
+        "2k",
+        "4k"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "references_max": {
+      "value": {
+        "images": 16
+      },
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    }
+  }
+}

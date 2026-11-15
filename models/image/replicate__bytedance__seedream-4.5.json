@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "id": "replicate/bytedance__seedream-4.5",
+  "name": "bytedance/seedream-4.5",
+  "provider": "bytedance",
+  "type": "image",
+  "platform": "replicate",
+  "specs": {
+    "resolutions": {
+      "value": [
+        "2K",
+        "4K",
+        "custom"
+      ],
+      "status": "official",
+      "source": "https://replicate.com/bytedance/seedream-4.5/api/schema",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "match_input_image",
+        "1:1",
+        "4:3",
+        "3:4",
+        "4:5",
+        "5:4",
+        "16:9",
+        "9:16",
+        "3:2",
+        "2:3",
+        "21:9",
+        "9:21"
+      ],
+      "status": "official",
+      "source": "https://replicate.com/bytedance/seedream-4.5/api/schema",
+      "date": "2026-11-15"
+    },
+    "prompt_max": {
+      "value": {
+        "value": 4000,
+        "unit": "characters"
+      },
+      "status": "official",
+      "source": "https://replicate.com/bytedance/seedream-4.5/api/schema",
+      "date": "2026-11-15"
+    }
+  },
+  "notes": "Text prompt for image generation. Maximum 4000 characters. BytePlus recommends keeping prompts under 600 English words for best results."
+}

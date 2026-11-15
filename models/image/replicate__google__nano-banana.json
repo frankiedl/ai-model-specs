@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "replicate/google__nano-banana",
+  "name": "google/nano-banana",
+  "provider": "google",
+  "type": "image",
+  "platform": "replicate",
+  "specs": {
+    "aspect_ratios": {
+      "value": [
+        "match_input_image",
+        "1:1",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "9:16",
+        "16:9",
+        "21:9"
+      ],
+      "status": "official",
+      "source": "https://replicate.com/google/nano-banana/api/schema",
+      "date": "2026-11-15"
+    }
+  }
+}

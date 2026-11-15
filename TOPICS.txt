@@ -1,0 +1,15 @@
+Suggested GitHub description (one sentence):
+Open, community-editable database of the real limits and specs of AI image and video generation models.
+
+Suggested topics (apply when creating the repository):
+ai-models
+video-generation
+image-generation
+model-specs
+generative-ai
+text-to-video
+text-to-image
+image-to-video
+api
+dataset
+json-schema

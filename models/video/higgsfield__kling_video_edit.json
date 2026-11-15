@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "higgsfield/kling_video_edit",
+  "name": "kling_video_edit",
+  "provider": "Kling",
+  "type": "video",
+  "platform": "higgsfield",
+  "specs": {
+    "references_max": {
+      "value": {
+        "images": 4,
+        "videos": 1
+      },
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    }
+  }
+}

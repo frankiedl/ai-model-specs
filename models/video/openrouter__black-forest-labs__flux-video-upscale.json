@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "id": "openrouter/black-forest-labs__flux-video-upscale",
+  "name": "Black Forest Labs: FLUX Video Upscale",
+  "provider": "black-forest-labs",
+  "type": "video",
+  "platform": "openrouter",
+  "specs": {
+    "native_audio": {
+      "value": false,
+      "status": "official",
+      "source": "https://openrouter.ai/api/v1/videos/models",
+      "date": "2026-11-15"
+    }
+  }
+}

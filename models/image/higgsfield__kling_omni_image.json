@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "higgsfield/kling_omni_image",
+  "name": "kling_omni_image",
+  "provider": "Kling",
+  "type": "image",
+  "platform": "higgsfield",
+  "specs": {
+    "resolutions": {
+      "value": [
+        "1k",
+        "2k"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "1:1",
+        "auto",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "21:9"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "references_max": {
+      "value": {
+        "images": 10
+      },
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "id": "replicate/wan-video__wan-2.5-i2v",
+  "name": "wan-video/wan-2.5-i2v",
+  "provider": "wan-video",
+  "type": "video",
+  "platform": "replicate",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "values": [
+          5,
+          10
+        ]
+      },
+      "status": "official",
+      "source": "https://replicate.com/wan-video/wan-2.5-i2v/api/schema",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "480p",
+        "720p",
+        "1080p"
+      ],
+      "status": "official",
+      "source": "https://replicate.com/wan-video/wan-2.5-i2v/api/schema",
+      "date": "2026-11-15"
+    }
+  }
+}

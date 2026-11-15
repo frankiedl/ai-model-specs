@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "id": "replicate/bytedance__seedream-4",
+  "name": "bytedance/seedream-4",
+  "provider": "bytedance",
+  "type": "image",
+  "platform": "replicate",
+  "specs": {
+    "resolutions": {
+      "value": [
+        "1K",
+        "2K",
+        "4K",
+        "custom"
+      ],
+      "status": "official",
+      "source": "https://replicate.com/bytedance/seedream-4/api/schema",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "match_input_image",
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16",
+        "3:2",
+        "2:3",
+        "21:9"
+      ],
+      "status": "official",
+      "source": "https://replicate.com/bytedance/seedream-4/api/schema",
+      "date": "2026-11-15"
+    }
+  }
+}

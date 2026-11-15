@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "id": "replicate/black-forest-labs__flux-kontext-pro",
+  "name": "black-forest-labs/flux-kontext-pro",
+  "provider": "black-forest-labs",
+  "type": "image",
+  "platform": "replicate",
+  "specs": {
+    "aspect_ratios": {
+      "value": [
+        "match_input_image",
+        "1:1",
+        "16:9",
+        "9:16",
+        "4:3",
+        "3:4",
+        "3:2",
+        "2:3",
+        "4:5",
+        "5:4",
+        "21:9",
+        "9:21",
+        "2:1",
+        "1:2"
+      ],
+      "status": "official",
+      "source": "https://replicate.com/black-forest-labs/flux-kontext-pro/api/schema",
+      "date": "2026-11-15"
+    }
+  }
+}

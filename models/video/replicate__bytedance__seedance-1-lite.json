@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "id": "replicate/bytedance__seedance-1-lite",
+  "name": "bytedance/seedance-1-lite",
+  "provider": "bytedance",
+  "type": "video",
+  "platform": "replicate",
+  "specs": {
+    "duration_seconds": {
+      "value": {
+        "min": 4,
+        "max": 12
+      },
+      "status": "official",
+      "source": "https://replicate.com/bytedance/seedance-1-lite/api/schema",
+      "date": "2026-11-15"
+    },
+    "resolutions": {
+      "value": [
+        "480p",
+        "720p",
+        "1080p"
+      ],
+      "status": "official",
+      "source": "https://replicate.com/bytedance/seedance-1-lite/api/schema",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "16:9",
+        "4:3",
+        "1:1",
+        "3:4",
+        "9:16",
+        "21:9",
+        "9:21"
+      ],
+      "status": "official",
+      "source": "https://replicate.com/bytedance/seedance-1-lite/api/schema",
+      "date": "2026-11-15"
+    },
+    "prompt_max": {
+      "value": {
+        "value": 4000,
+        "unit": "characters"
+      },
+      "status": "official",
+      "source": "https://replicate.com/bytedance/seedance-1-lite/api/schema",
+      "date": "2026-11-15"
+    }
+  },
+  "notes": "Text prompt for video generation. Maximum 4000 characters. BytePlus recommends keeping prompts under 600 English words for best results."
+}

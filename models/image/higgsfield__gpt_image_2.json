@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "id": "higgsfield/gpt_image_2",
+  "name": "gpt_image_2",
+  "provider": "OpenAI",
+  "type": "image",
+  "platform": "higgsfield",
+  "specs": {
+    "resolutions": {
+      "value": [
+        "1k",
+        "2k",
+        "4k"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    },
+    "aspect_ratios": {
+      "value": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "21:9",
+        "9:16",
+        "3:2",
+        "2:3"
+      ],
+      "status": "official",
+      "source": "https://higgsfield.ai",
+      "date": "2026-11-15"
+    }
+  }
+}
